@@ -26,12 +26,15 @@ class SummarizeActivity : AppCompatActivity() {
         btnForward = findViewById(R.id.btnForward)
 
         btnForward.setOnClickListener {
+            // check if the compression ratio field is not blank
             if(maxSent.text.isNullOrBlank()){
                 Toast.makeText(this, "Enter the compression ratio", Toast.LENGTH_LONG).show()
             }else{
+                // check if the text input field is not blank
                 if(txtInput.text.isNullOrBlank()){
                     Toast.makeText(this, "Enter the Sentence", Toast.LENGTH_LONG).show()
                 }else{
+                    // Checking 
                     val compressionRatio = maxSent.text.toString().toFloat()
                     if(compressionRatio > 1 || compressionRatio < 0){
                         Toast.makeText(this, "Compression rate should be between 0 and 1", Toast.LENGTH_LONG).show()
