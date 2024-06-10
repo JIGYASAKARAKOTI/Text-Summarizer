@@ -3,6 +3,7 @@
 ### The primary objective of the Text Summarizer project is to develop a robust and versatile tool that automates the summarization of text across various domains and genres. By automating the summarization process, the project aims to savetime, improve information retrieval, facilitate content consumption, and enhance knowledge extraction, catering to the needs of various industries and applications where efficient text summarization is essential.
 ## Introduction
 Text summarization is the process of condensing a lengthy piece of text into a shorter version while preserving its most important information and main ideas. Neural networks, particularly deep learning models, have revolutionized the field of natural language processing (NLP) and have proven to be highly effective in automating this summarization process.
+
 ![Screenshot 2024-06-06 115627](https://github.com/JIGYASAKARAKOTI/Text-Summarizer/assets/105275283/22aa0d56-28b9-4c47-b5bd-c99861c34218)
 
 ### There are broadly three different approaches that are used for text summarization:
